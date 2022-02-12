@@ -16,4 +16,4 @@ console.log(team.members.has(bowman));
 team.addAll(bowman, swordsman, magician, daemon, undead, zombie);
 console.log(team.members);
 console.log(team.toArray());
-console.log(team.iterator());
+team.iterator();
